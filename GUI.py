@@ -12,7 +12,8 @@ frm = ttk.Frame(root, padding =10)
 
 frm.grid()
 
-ttk.Button(frm, text ="1", value = '1').grid(column =0, row = 0)
+ttk.Button(frm, text ="1").grid(column =0, row = 0)
+ttk.Button()
 
 # loop to put everything on display until programme termination 
 
